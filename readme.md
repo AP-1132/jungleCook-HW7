@@ -6,4 +6,4 @@ This is website simulating the Jungle Cook. Currenlty only the Home page and Log
 
 # Link
 
-https://in-info-web4.luddy.indianapolis.iu.edu/~palmeroa/jungleCook-HW7
+https://in-info-web4.luddy.indianapolis.iu.edu/~palmeroa/jungle-cook-deploy/

@@ -1,12 +1,17 @@
-export function changePage(pageName) {
-  console.log(`Changing to page: ${pageName}`);
-  if (pageName === "") {
-    $.get("src/pages/home.html", (data) => {
-      $("#app").html(data);
-    });
+export function changePage(pageName, callback) {
+  let pageUrl = "";
+  if (pageName === "" || pageName === "home") {
+    pageUrl = "pages/home.html";
   } else {
-    $.get("src/pages/" + pageName + ".html", (data) => {
-      $("#app").html(data);
-    });
+    pageUrl = "pages/" + pageName + ".html";
   }
+
+  $.get(pageUrl, (data) => {
+    $("#app").html(data);
+    if (callback) {
+      callback();
+    }
+  }).fail(function () {
+    console.error(`Failed to load page: ${pageUrl}`);
+  });
 }

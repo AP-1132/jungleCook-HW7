@@ -1,3 +1,6 @@
+import jQuery from "jquery";
+window.$ = window.jQuery = jQuery;
+
 import { changePage } from "../model/model.js";
 
 import { initializeApp } from "firebase/app";

@@ -25,39 +25,39 @@ p {
 
 @font-face {
   font-family: "Caveat-Bold";
-  src: url(../fonts/Caveat-Bold.ttf);
+  src: url(/fonts/Caveat-Bold.ttf);
 }
 @font-face {
   font-family: "Caveat-Regular";
-  src: url(../fonts/Caveat-Regular.ttf);
+  src: url(/fonts/Caveat-Regular.ttf);
 }
 @font-face {
   font-family: "Lato-Regular";
-  src: url(../fonts/Lato/Lato-Regular.ttf);
+  src: url(/fonts/Lato/Lato-Regular.ttf);
 }
 @font-face {
   font-family: "Lato-Italic";
-  src: url(../fonts/Lato/Lato-Italic.ttf);
+  src: url(/fonts/Lato/Lato-Italic.ttf);
 }
 @font-face {
   font-family: "Lato-Black";
-  src: url(../fonts/Lato/Lato-Black.ttf);
+  src: url(/fonts/Lato/Lato-Black.ttf);
 }
 @font-face {
   font-family: "Lato-Light-Italic";
-  src: url(../fonts/Lato/Lato-LightItalic.ttf);
+  src: url(/fonts/Lato/Lato-LightItalic.ttf);
 }
 @font-face {
   font-family: "Lato-Thin-Italic";
-  src: url(../fonts/Lato/Lato-ThinItalic.ttf);
+  src: url(/fonts/Lato/Lato-ThinItalic.ttf);
 }
 @font-face {
   font-family: "Lato-Light";
-  src: url(../fonts/Lato/Lato-Light.ttf);
+  src: url(/fonts/Lato/Lato-Light.ttf);
 }
 @font-face {
   font-family: "Lato-Thin";
-  src: url(../fonts/Lato/Lato-Thin.ttf);
+  src: url(/fonts/Lato/Lato-Thin.ttf);
 }
 header {
   width: 100%;
@@ -180,7 +180,7 @@ nav a {
   justify-content: space-evenly;
   position: relative;
   background-color: #f25c54;
-  background-image: linear-gradient(rgba(242, 92, 84, 0.6)), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(242, 92, 84, 0.6)), url(/images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -242,7 +242,7 @@ nav a {
     justify-content: space-evenly;
     position: relative;
     background-color: #f25c54;
-    background-image: linear-gradient(rgba(242, 92, 84, 0.6)), url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(242, 92, 84, 0.6)), url(/images/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -302,7 +302,7 @@ nav a {
     justify-content: space-evenly;
     position: relative;
     background-color: #f25c54;
-    background-image: linear-gradient(rgba(242, 92, 84, 0.6)), url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(242, 92, 84, 0.6)), url(/images/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
