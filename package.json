@@ -1,0 +1,19 @@
+{
+  "name": "junglecook",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "compile:sass": "sass src/sass/styles.scss src/style.css -w --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.93.3",
+    "vite": "^7.2.2"
+  },
+  "dependencies": {
+    "firebase": "^12.5.0"
+  }
+}

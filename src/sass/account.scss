@@ -1,0 +1,161 @@
+.account-content {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffd972;
+
+  input {
+    width: 250px;
+    height: 25px;
+    border-style: none;
+    font-family: "Segoe UI";
+    background-color: #ffd972;
+
+    border-bottom: 1px solid #000;
+  }
+
+  ::placeholder {
+    color: #000;
+    font-size: 12px;
+    font-family: "Lato-Light";
+  }
+
+  .auth-content {
+    margin: 0 auto;
+    padding: 100px;
+    gap: 40px;
+    h1 {
+      font-size: 30px;
+      font-family: "Lato-Black";
+    }
+
+    .signOut-button {
+      width: 209px;
+      height: 52px;
+      padding: 12px 62px;
+      text-align: center;
+      color: #000;
+      margin: 0 auto;
+      // margin-left: 30px;
+      background-color: #ffd972;
+      box-shadow: 0px 10px 6px rgba(74, 73, 73, 0.2);
+      border-radius: 26px;
+      font-size: 25px;
+      font-family: "Caveat-Regular";
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  .login-section {
+    width: 55%;
+    // background-color: red;
+
+    .login-holder {
+      width: 233px;
+      height: 300px;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0 auto;
+      flex-direction: column;
+      // background-color: orange;
+
+      h1 {
+        font-size: 30px;
+        font-family: "Lato-Black";
+        letter-spacing: 5px;
+      }
+
+      input {
+        width: 206px;
+      }
+
+      .login-button {
+        width: 209px;
+        height: 52px;
+        padding: 12px 62px;
+        text-align: center;
+        color: #000;
+        // margin-left: 30px;
+        background-color: #ffd972;
+        box-shadow: 0px 10px 6px rgba(74, 73, 73, 0.2);
+        border-radius: 26px;
+        font-size: 25px;
+        font-family: "Caveat-Regular";
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .sign-up-section {
+    width: 45%;
+    height: 100%;
+    // background-color: yellow;
+
+    .sign-up-holder {
+      width: 233px;
+      height: 389px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin: 0 auto;
+      // background-color: beige;
+
+      p {
+        font-size: 12px;
+        margin-bottom: -30px;
+        font-family: "Lato-Light-Italic";
+        letter-spacing: 2px;
+      }
+
+      h1 {
+        font-size: 30px;
+        font-family: "Lato-Black";
+        letter-spacing: 5px;
+      }
+
+      .sign-up-button {
+        width: 250px;
+        height: 52px;
+        padding: 12px 50px;
+        text-align: center;
+        color: #000;
+        // margin-left: 30px;
+        background-color: #ffd972;
+        box-shadow: 0px 10px 6px rgba(74, 73, 73, 0.2);
+        border-radius: 26px;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: "Caveat-Regular";
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .account-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .login-section {
+      .login-holder {
+        height: 250px;
+      }
+    }
+
+    .sign-up-section {
+      .sign-up-holder {
+        height: 250px;
+
+        p {
+          margin-bottom: -10px;
+        }
+      }
+    }
+  }
+}
